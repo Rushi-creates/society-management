@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "846521944649",
+    "project_id": "ruparel1",
+    "storage_bucket": "ruparel1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:846521944649:android:3cd9b8173e781e399b4d98",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBc2VhuNrfTz_3-jw3NHp974kz7hs_Lm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
