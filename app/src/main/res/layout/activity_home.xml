@@ -7,6 +7,7 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -14,8 +15,10 @@
         android:text="TextView"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.331" />
 
     <Button
         android:id="@+id/btn_logout"
@@ -27,6 +30,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.698" />
+        app:layout_constraintVertical_bias="0.777" />
+
+    <Button
+        android:id="@+id/btn_display_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="display_event"
+        android:text="Display Event"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.631" />
+
+    <Button
+        android:id="@+id/btn_add_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="add_event"
+        android:text="Add Event"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.478" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

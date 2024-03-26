@@ -15,6 +15,12 @@
         android:theme="@style/Theme.Material3.Light"
         tools:targetApi="31">
         <activity
+            android:name=".EventListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EventAddActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true"
             android:label="@string/app_name"
@@ -32,9 +38,7 @@
             android:name=".Register"
             android:exported="false"
             android:label="@string/title_activity_register"
-            android:theme="@style/Theme.Material3.Light.NoActionBar">
-
-        </activity>
+            android:theme="@style/Theme.Material3.Light.NoActionBar" />
         <activity
             android:name=".Login"
             android:exported="false"
